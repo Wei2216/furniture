@@ -1,14 +1,10 @@
 <template>
   <div class="position-relative">
-    <!-- 背景圖層（含透明度） -->
     <div class="position-absolute bg-img"></div>
-    <!-- 前景內容 -->
     <div
       class="container d-flex flex-column"
       style="min-height: 100vh; position: relative; z-index: 1"
     >
-      <!--  導覽列  -->
-      <!-- 中央置中標語與按鈕 -->
       <div class="row justify-content-center my-auto">
         <div class="col-md-6 text-center">
           <h1 class="fs-1">樂居時光，品味生活</h1>
@@ -80,7 +76,6 @@
       </div>
     </div>
   </section>
-  <!-- 熱門商品區塊 -->
   <section id="featured" class="py-5">
     <div class="container">
       <div class="row">
@@ -201,7 +196,6 @@ export default {
       }));
     },
   },
-  // mixins: [detailMixin],
   created() {
     this.getNewProducts();
   },

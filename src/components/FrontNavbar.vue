@@ -14,7 +14,6 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <!-- 左側導航 -->
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <router-link to="/about" class="nav-link dashNav-item"
@@ -29,7 +28,6 @@
                   active-class="dashNav-active">常見問題</router-link>
                 </li>
               </ul>
-              <!-- 右側導航 -->
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <router-link to="/favorite" class="nav-link position-relative dashNav-item"
@@ -142,7 +140,7 @@ export default {
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #4EC5B2; /* 薄荷綠 */
+  background-color: #4EC5B2;
   transition: width 0.3s ease;
 }
 

@@ -55,11 +55,9 @@
 </template>
 
 <script>
-// import ProductModal from '../components/ProductModal.vue';
 import ProductModal from '@/components/ProductModal.vue';
 import DeleteModal from '@/components/DeleteModal.vue';
 import PaginationComponent from '@/components/PaginationComponent.vue';
-// import { currency } from '../methods/filters';
 
 export default {
   data() {
@@ -127,8 +125,7 @@ export default {
       const productComponent = this.$refs.productModal;
       this.$http[httpMethod](api, { data: this.tempProduct }).then((response) => {
         console.log(response);
-        productComponent.hideModal(); // 新增完產品會關閉
-        // this.getProducts(); // 重新取得列表資訊
+        productComponent.hideModal();
         if (response.data.success) {
           this.getProducts();
           this.emitter.emit('push-message', {
@@ -144,7 +141,6 @@ export default {
         }
       });
     },
-    // 開啟刪除 Modal
     openDeleteProductModal(item) {
       this.tempProduct = { ...item };
       const deleteComponent = this.$refs.deleteModal;

@@ -104,7 +104,7 @@ export default {
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #4EC5B2; /* 薄荷綠 */
+  background-color: #4EC5B2;
   transition: width 0.3s ease;
 }
 

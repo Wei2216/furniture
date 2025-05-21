@@ -12,7 +12,6 @@
       </div>
     </div>
   </div>
-<!-- 購物車清單 -->
   <div v-else class="my-5">
     <div class="container">
       <div class="border border-2 p-3">

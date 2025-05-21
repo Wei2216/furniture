@@ -132,14 +132,14 @@ export default {
 
 <style>
 .about-bgImg {
-  background-image: url('@/assets/images/sofa/sofa8.jpg'); /* 請自行替換圖片路徑 */
+  background-image: url('@/assets/images/sofa/sofa8.jpg');
   background-size: cover;
   background-position: center;
   height: 300px;
 }
 
 .text-title {
-  font-size: 32px; /* 固定像素 */
+  font-size: 32px;
   font-weight: 700;
   color: #4f332d;
   margin-bottom: 16px;

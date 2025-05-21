@@ -4,7 +4,6 @@
   <div class="mt-5">
     <div class="container">
       <div class="row g-3 my-5 flex-lg-row-reverse">
-        <!-- 購物清單 -->
         <div class="col-12 col-lg-6">
           <div class="border border-2 p-3 p-md-5">
             <div class="row row-cols-1 g-5">
@@ -257,7 +256,6 @@ export default {
 };
 </script>
 <style>
-/* 標題字體與配色 */
 .cart-title {
   color: #4f332d;
   font-weight: 800;
@@ -265,7 +263,6 @@ export default {
   margin-bottom: 1rem;
 }
 
-/* 購物車項目卡片 */
 .cart-card {
   background-color: #f9f6f3;
   border-radius: 0.5rem;
@@ -277,7 +274,6 @@ export default {
   transform: translateY(-4px);
 }
 
-/* 商品圖片樣式 */
 .cart-img {
   object-fit: cover;
   border-radius: 0.375rem;
@@ -286,31 +282,26 @@ export default {
   max-height: 160px;
 }
 
-/* 商品標題樣式 */
 .cart-product-title {
   color: #4f332d;
   font-weight: bold;
   font-size: 1.1rem;
 }
 
-/* 價格文字 */
 .cart-price {
   color: #C0402A;
   font-weight: bold;
 }
 
-/* 購物總計表格樣式 */
 .cart-summary-table td {
   color: #4f332d;
   font-weight: 600;
 }
 
-/* 優惠折扣綠色字體 */
 .cart-summary-table .text-success {
   color: #198754 !important;
 }
 
-/* 表格總計邊線加強 */
 .cart-summary-table .border-top {
   border-top: 2px solid #4f332d !important;
 }

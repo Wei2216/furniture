@@ -26,16 +26,6 @@
             </table>
             <table class="w-100">
                 <tbody>
-                  <!-- <tr>
-                    <td class="text-end py-2">運費</td>
-                    <td class="text-end w-50">NT$ {{ $filters.currency(deliveryFee) }}</td>
-                  </tr> -->
-                  <!-- <tr class="text-success">
-                    <td class="text-end py-2">優惠折扣</td>
-                    <td class="text-end w-50" >
-                       - NT$ {{ $filters.currency(cart.total - cart.final_total) }}
-                    </td>
-                  </tr> -->
                   <tr class="border-top ">
                     <td class="text-end py-2">總計金額</td>
                     <td class="text-end w-50">NT$ {{ $filters.currency(order.total) }}</td>

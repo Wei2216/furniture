@@ -2,7 +2,6 @@
   <LoadingOverlay :active="isLoading"></LoadingOverlay>
   <div class="container mt-5">
   <div class="row g-4 align-items-stretch">
-    <!-- 左側商品圖片 -->
     <div class="col-12 col-md-6 d-flex justify-content-center
      align-items-center">
       <img
@@ -12,10 +11,7 @@
         style="max-height: 480px; object-fit: contain;"
       />
     </div>
-
-    <!-- 右側商品資訊與操作 -->
     <div class="col-12 col-md-6 d-flex flex-column gap-4 p-1">
-      <!-- 商品標題與描述 -->
         <div class="flex-grow-1 d-flex flex-column gap-4">
       <div>
         <h2 class="fs-3 fw-bold
@@ -60,7 +56,6 @@
       </div>
     </div>
 
-      <!-- 操作按鈕區塊 -->
       <div class="d-flex justify-content-between align-items-center">
         <button
           type="button"
